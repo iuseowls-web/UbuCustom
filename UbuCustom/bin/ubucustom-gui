@@ -1,0 +1,20 @@
+#!/usr/bin/env python3
+"""
+UbuCustom GUI - Custom Ubuntu ISO Creator
+
+Graphical interface entry point for the UbuCustom tool.
+"""
+
+import sys
+import os
+
+# Add the parent directory to path for development
+script_dir = os.path.dirname(os.path.abspath(__file__))
+parent_dir = os.path.dirname(script_dir)
+if os.path.exists(os.path.join(parent_dir, 'ubucustom')):
+    sys.path.insert(0, parent_dir)
+
+from ubucustom.gui import main
+
+if __name__ == '__main__':
+    sys.exit(main())
