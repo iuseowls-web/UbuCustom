@@ -34,8 +34,8 @@ sudo apt install python3 python3-tk squashfs-tools xorriso qemu-system-x86
 
 1. Clone the repository:
 ```bash
-git clone https://github.com/yourusername/ubucustom.git
-cd ubucustom
+git clone https://github.com/iuseowls-web/UbuCustom.git
+cd UbuCustom
 ```
 
 2. Make the script executable:
@@ -99,7 +99,7 @@ Inside the chroot environment, you can:
 ## Project Structure
 
 ```
-ubucustom/
+UbuCustom/
 ├── ubucustom/
 │   ├── __init__.py          # Package initialization
 │   ├── core.py              # ISO building logic
@@ -110,12 +110,7 @@ ubucustom/
 │   ├── checker.py           # ISO validation
 │   ├── utils.py             # Utility functions
 │   └── themes.py            # Theme definitions
-├── website/                  # Website files
-│   ├── index.html
-│   ├── styles.css
-│   ├── icons.svg
-│   ├── assets/
-│   └── pages/
+├── website/                  # Documentation website
 ├── ubucustom.py             # Main entry point
 ├── requirements.txt         # Python dependencies
 └── README.md               # This file
@@ -196,7 +191,6 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 
 ## Support
 
-- Documentation: Visit the [website](website/) folder for detailed guides
 - Issues: Report bugs on GitHub Issues
 - Questions: Open a discussion on GitHub Discussions
 
