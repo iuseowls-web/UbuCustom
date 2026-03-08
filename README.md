@@ -2,8 +2,6 @@
 
 A powerful Python-based tool for customizing Ubuntu ISOs, inspired by Cubic. Create your own personalized Ubuntu distribution with ease.
 
-![UbuCustom](website/assets/screenshot.png)
-
 ## Features
 
 - **ISO Extraction & Rebuilding**: Extract Ubuntu ISOs, customize the filesystem, and rebuild bootable ISOs
@@ -110,11 +108,9 @@ UbuCustom/
 │   ├── checker.py           # ISO validation
 │   ├── utils.py             # Utility functions
 │   └── themes.py            # Theme definitions
-├── website/                  # Documentation website
 ├── ubucustom.py             # Main entry point
 ├── requirements.txt         # Python dependencies
-└── README.md               # This file
-```
+
 
 ## Themes
 
